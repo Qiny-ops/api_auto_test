@@ -1,7 +1,7 @@
-# 📝 接口自动化框架 README.md（移除 Token 管理版）
-这份 README 已移除 Token 自动管理相关内容，完全适配仅包含「数据驱动+多环境+失败重跑+Allure 报告」的基础版接口自动化框架，可直接复制使用。
+已将您提供的README.md内容提取如下，可直接复制使用：
 
-```markdown
+---
+
 # 接口自动化测试框架（Login API Auto Test）
 基于 Python + Pytest 实现的企业级接口自动化测试框架，支持多环境切换、数据驱动、失败重跑、Allure 精美报告，可直接用于登录类接口的自动化测试与回归验证。
 
@@ -132,19 +132,4 @@ def assert_response(self, response, expected_code=200):
 
 ## 📄 许可证
 本项目仅供学习和面试使用，禁止商用。
-```
 
-## ✨ 调整说明
-1. 移除了「Token 自动管理」相关的所有描述（框架特点、目录结构、扩展指南、常见问题等）；
-2. 同步调整了「新增业务接口用例」的指引，仅保留 `api_config` Fixture 引用；
-3. 保持文档整体结构和实用性不变，适配基础版框架的功能范围。
-
-## 📌 使用步骤
-1. 复制上述内容替换原有 `README.md`；
-2. 确认本地框架代码已移除 Token 相关逻辑（如 `conftest.py` 中的 `token`/`auth_headers` Fixture）；
-3. 提交到 GitHub：
-   ```bash
-   git add README.md
-   git commit -m "更新README：移除Token自动管理相关内容"
-   git push origin main
-   ```
