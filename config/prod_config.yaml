@@ -1,0 +1,5 @@
+base_url: "https://httpbin.org"  # 生产环境域名
+headers:
+  Content-Type: application/json
+  Token: "prod-token-123456"  # 生产环境专属token
+timeout: 10

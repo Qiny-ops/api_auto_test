@@ -1,0 +1,39 @@
+{
+    "login_cases": [
+        {
+            "case_name": "正常登录",
+            "username": "test123",
+            "password": "123456",
+            "expected_username": "test123",
+            "expected_pwd_len": 6
+        },
+        {
+            "case_name": "用户名为空",
+            "username": "",
+            "password": "123456",
+            "expected_username": "",
+            "expected_pwd_len": 6
+        },
+        {
+            "case_name": "密码长度不足",
+            "username": "test123",
+            "password": "12345",
+            "expected_username": "test123",
+            "expected_pwd_len": 5
+        },
+        {
+            "case_name": "用户名过长（17位）",
+            "username": "test1234567890123",
+            "password": "123456",
+            "expected_username": "test1234567890123",
+            "expected_pwd_len": 6
+        },
+        {
+            "case_name": "密码为空",
+            "username": "test123",
+            "password": "",
+            "expected_username": "test123",
+            "expected_pwd_len": 0
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+base_url: "https://httpbin.org"  # 测试环境域名
+headers:
+  Content-Type: application/json
+  Token: "test-token-123456"  # 测试环境专属token
+timeout: 10

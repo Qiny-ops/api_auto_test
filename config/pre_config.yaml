@@ -1,0 +1,5 @@
+base_url: "https://httpbin.org"  # 预发环境域名
+headers:
+  Content-Type: application/json
+  Token: "pre-token-123456"  # 预发环境专属token
+timeout: 10

@@ -1,0 +1,30 @@
+[32mINFO    [0m api_auto:base_request.py:53 POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': ''}, 超时=10秒
+[32mINFO    [0m api_auto:base_request.py:64 POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content
+[32mINFO    [0m api_auto:base_request.py:53 POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': ''}, 超时=10秒
+[32mINFO    [0m api_auto:base_request.py:64 POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content
+[32mINFO    [0m api_auto:base_request.py:53 POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': ''}, 超时=10秒
+[32mINFO    [0m api_auto:base_request.py:64 POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content
