@@ -27,14 +27,14 @@ logger = logging.getLogger("api_auto")  # 日志器名称
 
 class BaseRequest:
     """封装requests请求，增加日志记录+Allure集成"""
-    def get(self, url, params=None, headers=None):
+    def get(self, url, params=None, headers=None, timeout=10):
         """封装GET请求"""
         try:
-            log_msg = f"发送GET请求：URL={url}，参数={params}"
+            log_msg = f"发送GET请求：URL={url}，参数={params}, 超时={timeout}秒"
             logger.info(log_msg)
             allure.attach(log_msg, "请求日志", allure.attachment_type.TEXT)
             
-            response = requests.get(url, params=params, headers=headers, timeout=10)
+            response = requests.get(url=url, params=params, headers=headers, timeout=10)
             
             log_msg = f"GET响应：状态码={response.status_code}，响应内容={response.text[:200]}"
             logger.info(log_msg)

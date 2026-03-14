@@ -1,1 +1,0 @@
-POST请求：URL=https://httpbin.org/post，JSON数据={'username': '', 'password': '123456'}, 超时=10秒

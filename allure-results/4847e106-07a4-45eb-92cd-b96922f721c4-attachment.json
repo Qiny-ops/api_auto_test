@@ -1,0 +1,15 @@
+{
+  "args": {},
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate",
+    "Authorization": "Bearer mock-token-test-123456789",
+    "Content-Type": "application/json",
+    "Host": "httpbin.org",
+    "Token": "test-token-123456",
+    "User-Agent": "python-requests/2.32.5",
+    "X-Amzn-Trace-Id": "Root=1-69b5115e-6ded86eb11f20ef85d90ae96"
+  },
+  "origin": "223.104.80.71",
+  "url": "https://httpbin.org/get"
+}

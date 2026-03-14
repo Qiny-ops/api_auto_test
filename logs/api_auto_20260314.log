@@ -4772,3 +4772,143 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='pre-httpbin.org',
     "Accept": "*/*", 
     "Accept-Encoding": "gzip, deflate", 
     "Content
+2026-03-14 15:26:08,111 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': '123456'}, 超时=10秒
+2026-03-14 15:26:09,513 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"123456\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "C
+2026-03-14 15:32:05,054 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': '123456'}, 超时=10秒
+2026-03-14 15:32:06,457 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"123456\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "C
+2026-03-14 15:32:06,464 - api_auto - INFO - POST请求：URL=https://httpbin.org/get，JSON数据=None, 超时=10秒
+2026-03-14 15:32:07,762 - api_auto - INFO - POST响应：状态码=405，响应内容=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+2026-03-14 15:32:08,856 - api_auto - INFO - POST请求：URL=https://httpbin.org/get，JSON数据=None, 超时=10秒
+2026-03-14 15:32:10,194 - api_auto - INFO - POST响应：状态码=405，响应内容=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+2026-03-14 15:32:11,213 - api_auto - INFO - POST请求：URL=https://httpbin.org/get，JSON数据=None, 超时=10秒
+2026-03-14 15:32:12,592 - api_auto - INFO - POST响应：状态码=405，响应内容=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+2026-03-14 15:32:12,620 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'nickname': 'AI测试工程师', 'user_id': 123456}, 超时=10秒
+2026-03-14 15:32:13,930 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"nickname\": \"AI\\u6d4b\\u8bd5\\u5de5\\u7a0b\\u5e08\", \"user_id\": 123456}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding":
+2026-03-14 15:35:46,160 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': '123456'}, 超时=10秒
+2026-03-14 15:35:47,494 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"123456\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "C
+2026-03-14 15:35:47,503 - api_auto - INFO - POST请求：URL=https://httpbin.org/get，JSON数据=None, 超时=10秒
+2026-03-14 15:35:48,883 - api_auto - INFO - POST响应：状态码=405，响应内容=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+2026-03-14 15:35:49,982 - api_auto - INFO - POST请求：URL=https://httpbin.org/get，JSON数据=None, 超时=10秒
+2026-03-14 15:35:51,347 - api_auto - INFO - POST响应：状态码=405，响应内容=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+2026-03-14 15:35:52,375 - api_auto - INFO - POST请求：URL=https://httpbin.org/get，JSON数据=None, 超时=10秒
+2026-03-14 15:35:53,695 - api_auto - INFO - POST响应：状态码=405，响应内容=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+2026-03-14 15:35:53,708 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'nickname': 'AI测试工程师', 'user_id': 123456}, 超时=10秒
+2026-03-14 15:35:54,999 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"nickname\": \"AI\\u6d4b\\u8bd5\\u5de5\\u7a0b\\u5e08\", \"user_id\": 123456}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding":
+2026-03-14 15:38:38,346 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': '123456'}, 超时=10秒
+2026-03-14 15:38:39,762 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"123456\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "C
+2026-03-14 15:38:39,767 - api_auto - INFO - 发送GET请求：URL=https://httpbin.org/get，参数=None, 超时=10秒
+2026-03-14 15:38:41,095 - api_auto - INFO - GET响应：状态码=200，响应内容={
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Authorization": "Bearer mock-token-test-123456789", 
+    "Content-Type": "application/json", 
+    "H
+2026-03-14 15:38:41,103 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'nickname': 'AI测试工程师', 'user_id': 123456}, 超时=10秒
+2026-03-14 15:38:42,802 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"nickname\": \"AI\\u6d4b\\u8bd5\\u5de5\\u7a0b\\u5e08\", \"user_id\": 123456}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding":
+2026-03-14 15:42:20,307 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'username': 'test123', 'password': '123456'}, 超时=10秒
+2026-03-14 15:42:21,621 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"username\": \"test123\", \"password\": \"123456\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "C
+2026-03-14 15:42:21,632 - api_auto - INFO - 发送GET请求：URL=https://httpbin.org/get，参数=None, 超时=10秒
+2026-03-14 15:42:23,072 - api_auto - INFO - GET响应：状态码=200，响应内容={
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Authorization": "Bearer mock-token-test-123456789", 
+    "Content-Type": "application/json", 
+    "H
+2026-03-14 15:42:23,083 - api_auto - INFO - POST请求：URL=https://httpbin.org/post，JSON数据={'nickname': 'AI测试工程师', 'user_id': 123456}, 超时=10秒
+2026-03-14 15:42:24,613 - api_auto - INFO - POST响应：状态码=200，响应内容={
+  "args": {}, 
+  "data": "{\"nickname\": \"AI\\u6d4b\\u8bd5\\u5de5\\u7a0b\\u5e08\", \"user_id\": 123456}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding":
