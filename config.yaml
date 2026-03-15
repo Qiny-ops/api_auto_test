@@ -1,3 +1,0 @@
-base_url: "https://httpbin.org"
-headers:
-  Content-Type: application/json

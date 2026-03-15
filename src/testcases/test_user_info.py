@@ -1,7 +1,7 @@
 import allure
 import pytest
 import json  # 新增：确保json模块导入
-from base_request import req
+from src.common.base_request import req
 
 @allure.feature("用户信息模块（需登录Token）")
 class TestUserInfo:

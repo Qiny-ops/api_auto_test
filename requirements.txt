@@ -1,0 +1,9 @@
+
+### requirements.txt（一键安装依赖）
+
+pytest==7.4.3
+requests==2.31.0
+PyYAML==6.0.1
+openpyxl==3.1.2
+allure-pytest==2.13.2
+loguru==0.7.2  # 可选（优化日志）
