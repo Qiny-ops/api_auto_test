@@ -12,22 +12,30 @@
 
 ## 📂 框架目录结构
 ```
-login_api_auto/
-├── base_request.py        # HTTP请求封装（含日志/Allure集成）
-├── conftest.py            # 全局Fixture（多环境/Token/数据读取）
-├── test_login.py          # 登录接口测试用例（数据驱动）
-├── test_user_info.py      # 业务接口测试用例（带Token校验）
-├── pytest.ini             # Pytest全局配置（失败重跑/用例匹配）
-├── config/                # 多环境配置文件夹
-│   ├── test_config.yaml   # 测试环境配置（域名/Headers/超时）
-│   ├── pre_config.yaml    # 预发环境配置
-│   └── prod_config.yaml   # 生产环境配置
-├── data/                  # 测试数据文件夹
-│   ├── login_data.json    # JSON格式测试数据
-│   └── login_data.xlsx    # Excel格式测试数据（可选）
-├── logs/                  # 日志文件夹（自动生成）
-├── allure-results/        # Allure报告数据（运行后自动生成）
-└── README.md              # 框架说明文档
+api_auto_test/  # 项目根目录（英文名，企业规范）
+├── README.md               # 项目说明（面试/交接用）
+├── requirements.txt        # 依赖清单（一键安装）
+├── pytest.ini              # pytest基础配置
+├── conftest.py             # 自定义Fixture（核心学习点）
+├── run.py                  # 一键执行入口（核心学习点）
+├── src/                    # 源码目录（分层设计）
+│   ├── common/             # 公共工具层（复用代码）
+│   │   ├── base_request.py # 请求封装（核心学习点）
+│   │   ├── logger.py       # 日志封装（可选学习）
+│   │   └── db_utils.py     # 数据库工具（预留扩展）
+│   ├── config/             # 配置层（多环境）
+│   │   ├── test_config.yaml  # 测试环境配置
+│   │   ├── pre_config.yaml   # 预发环境配置（空）
+│   │   └── prod_config.yaml  # 生产环境配置（空）
+│   ├── data/               # 数据层（数据驱动）
+│   │   └── login_data.json # 登录测试数据（你的原始数据）
+│   └── testcases/          # 用例层（业务逻辑）
+│       ├── test_login.py   # 登录用例（数据驱动）
+│       └── test_user_api.py# 用户接口用例（Token关联）
+├── logs/                   # 自动生成日志（无需创建）
+└── reports/                # 自动生成报告（无需创建）
+    └── allure-results
+
 ```
 
 ## 🛠 环境准备
